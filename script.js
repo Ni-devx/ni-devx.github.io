@@ -1,1 +1,1 @@
-console.log("blog loaded");
+console.log("personal blog loaded");
