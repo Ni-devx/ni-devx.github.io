@@ -1,5 +1,102 @@
 body {
-  font-family: sans-serif;
-  margin: 40px;
+  font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+  background-color: rgb(245, 245, 245);
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 20%;
+
+}
+
+h1 {
   font-weight: 100;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+section {
+  margin-top: 100px;
+}
+
+/* intro */
+.brief {
+  letter-spacing: 1.5px;
+}
+
+.brief a {
+  padding-top: 25px;
+}
+
+
+/* Link */
+.link {
+  
+}
+
+.linkBottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px 24px;
+  margin-top:30px;
+}
+
+.linkBox {
+  border: 1px solid #000;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+h3 {
+  margin: 24px 0 24px 18px;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 100;
+  display: block;
+}
+
+/* blog */
+.blog a {
+  letter-spacing: 1.5px;
+}
+
+
+/* products */
+.products a {
+  letter-spacing: 1.5px;
+}
+
+/* contact */
+.contact a{
+  padding-top: 25px;
+}
+
+.wayContact {
+  letter-spacing: 1.5px;
+}
+
+/* footer */
+footer {
+  background-color: white;
+  height: 150px;
+  margin-top:48px;
+  margin-left:0;
+  margin-right:0;
+}
+
+footer a {
+  text-align: center;
+  padding-top:50px;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
