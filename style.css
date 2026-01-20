@@ -1,3 +1,11 @@
+/*レスポンシブ*/
+
+@media (max-width:600px) {
+  main {
+    margin: 0;
+  }
+}
+
 body {
   font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
   background-color: rgb(245, 245, 245);
@@ -7,7 +15,6 @@ body {
 
 main {
   margin: 20%;
-
 }
 
 h1 {
@@ -40,22 +47,17 @@ section {
 }
 
 .linkBottom {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px 24px;
+  display:flex;
   margin-top:30px;
 }
 
-.linkBox {
-  border: 1px solid #000;
-  border-radius: 12px;
+.linkBottom a {
   cursor: pointer;
+  font-weight: 100;
+  margin-right: 12px;
 }
 
 h3 {
-  margin: 24px 0 24px 18px;
-  font-size: 14px;
-  font-weight: 100;
 }
 
 a {
@@ -77,7 +79,7 @@ a {
 }
 
 /* contact */
-.contact a{
+.linkContact a{
   padding-top: 25px;
 }
 
@@ -87,16 +89,14 @@ a {
 
 /* footer */
 footer {
-  background-color: white;
-  height: 150px;
-  margin-top:48px;
-  margin-left:0;
-  margin-right:0;
+  
 }
 
 footer a {
-  text-align: center;
-  padding-top:50px;
+  text-align:  center;
+  display:flex;
   font-size: 14px;
   letter-spacing: 1px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
