@@ -1,10 +1,10 @@
-/*レスポンシブ*/
+/*レスポンシブ（スマホ用）*/
 
-@media (max-width:600px) {
-  main {
-    margin: 0;
-  }
+@media (min-width:767px) {
+
 }
+
+/*全体*/
 
 body {
   font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
@@ -14,62 +14,53 @@ body {
 }
 
 main {
-  margin: 20%;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 200px;
 }
 
-h1 {
-  font-weight: 100;
-  letter-spacing: 4px;
+section {
+  margin-top: 50px;
+  margin-bottom:50px;
 }
 
 h2 {
   font-weight: 100;
   letter-spacing: 2px;
+  margin:0;
+  font-size: 24px;
 }
 
-section {
-  margin-top: 100px;
+
+
+/*タイトル*/
+h1 {
+  margin:0;
+  font-size:32px;
+  font-weight: 100;
+  letter-spacing: 4px;
+
 }
 
-/* intro */
+.first{
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
 .brief {
-  letter-spacing: 1.5px;
+  margin-top:24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* 好きな余白 */
 }
 
 .brief a {
-  padding-top: 25px;
+  font-size: 14px;
 }
 
 
-/* Link */
-.link {
-  
-}
 
-.linkBottom {
-  display:flex;
-  margin-top:30px;
-}
-
-.linkBottom div {
-  cursor: pointer;
-  font-weight: 100;
-  margin-right: 12px;
-}
-
-.separater {
-  cursor: none;
-}
-
-h3 {
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-  font-weight: 100;
-  display: block;
-}
 
 /* blog */
 .blog a {
@@ -78,29 +69,50 @@ a {
 
 
 /* products */
-.products a {
-  letter-spacing: 1.5px;
+.appItem {
+  margin-top:24px;
 }
 
-/* contact */
-.linkContact a{
-  padding-top: 25px;
+.appName {
+  font-size:18px;
+  color: #000;
 }
 
-.wayContact {
-  letter-spacing: 1.5px;
+.appDiscription {
+  font-size:14px;
+  margin-top:4px;
+  text-decoration: none;
 }
+
+
+
+
+/* link */
+
+.linkContact {
+  display: flex;
+  flex-direction: column;
+  gap:12px;
+}
+
+.linkLists {
+  display:flex;
+  flex-direction: row;
+  gap:12px;
+}
+
+.linkLists a {
+  cursor: pointer;
+  font-weight: 100;
+  color: #000;
+}
+
+
 
 /* footer */
-footer {
-  
-}
 
-footer a {
-  text-align:  center;
-  display:flex;
-  font-size: 14px;
-  letter-spacing: 1px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+footer {
+  margin-bottom:50px;
+  margin-top:50px;
+  justify-items: center;
 }
